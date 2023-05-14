@@ -7,10 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Dashboard Inventory</title>
+        <title>Dashboard Print Studio</title>
 
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.png') }}" />
+        <link rel="icon" type="image/x-icon" href="https://inevelle.sirv.com/assets/images/logo/Print-Studio/images/logo/logo/icon.svg" />
 
         <!-- Styles CSS -->
         <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet" />

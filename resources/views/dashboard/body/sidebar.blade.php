@@ -8,6 +8,7 @@
                 <div class="nav-link-icon"><i data-feather="activity"></i></div>
                 Dashboard
             </a>
+            
             <a class="nav-link {{ Request::is('pos*') ? 'active' : '' }}" href="{{ route('pos.index') }}">
                 <div class="nav-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
                 POS
