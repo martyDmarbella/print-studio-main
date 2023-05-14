@@ -46,7 +46,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="me-3">
                             <div class="text-white-75 small">Earnings (Monthly)</div>
-                            <div class="text-lg fw-bold">$140,000</div>
+                            <div class="text-lg fw-bold">₱1,140,000</div>
                         </div>
                         <i class="feather-xl text-white-50" data-feather="calendar"></i>
                     </div>
@@ -63,7 +63,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="me-3">
                             <div class="text-white-75 small">Earnings (Annual)</div>
-                            <div class="text-lg fw-bold">$215,000</div>
+                            <div class="text-lg fw-bold">₱215,000</div>
                         </div>
                         <i class="feather-xl text-white-50" data-feather="dollar-sign"></i>
                     </div>

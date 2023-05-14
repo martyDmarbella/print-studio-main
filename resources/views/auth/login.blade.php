@@ -6,13 +6,7 @@
         <div class="col-xl-5 col-lg-6 col-md-8 col-sm-11">
             <div class="card my-5">
                 <div class="card-body p-5 text-center">
-                    <div class="h3 fw-light mb-3">Sign In</div>
-                    <!-- BEGIN: Social Login Links-->
-                    <a class="btn btn-icon btn-facebook mx-1" href="#"><i class="fab fa-facebook-f fa-fw fa-sm"></i></a>
-                    <a class="btn btn-icon btn-github mx-1" href="#"><i class="fab fa-github fa-fw fa-sm"></i></a>
-                    <a class="btn btn-icon btn-google mx-1" href="#"><i class="fab fa-google fa-fw fa-sm"></i></a>
-                    <a class="btn btn-icon btn-twitter mx-1" href="#"><i class="fab fa-twitter fa-fw fa-sm text-white"></i></a>
-                    <!-- END: Social Login Links-->
+                    <img src="https://inevelle.sirv.com/assets/images/logo_white_sign%20in_new.svg" class="img-fluid" alt="welcome logo">                  
                 </div>
                 <hr class="my-0" />
                 <div class="card-body p-5">
@@ -21,7 +15,7 @@
                         @csrf
                         <!-- Form Group (email address)-->
                         <div class="mb-3">
-                            <label class="text-gray-600 small" for="input_type">Email / Username</label>
+                            <label class="text-black-600 small" for="input_type">Email / Username</label>
                             <input
                                 class="form-control form-control-solid @if($errors->get('email') OR $errors->get('username')) is-invalid @endif"
                                 type="text"
@@ -78,4 +72,4 @@
         </div>
     </div>
 </div>
-@endsection
+

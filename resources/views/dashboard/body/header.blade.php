@@ -6,7 +6,8 @@
     <!-- * * Tip * * You can use text or an image for your navbar brand.-->
     <!-- * * * * * * When using an image, we recommend the SVG format.-->
     <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-    <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="{{ route('dashboard') }}">Inventory</a>
+    <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="{{ route('dashboard') }}"><img src="http://localhost:3000/static/media/logo.436b118550ef63fa2f9419bce9d2e19a.svg" class="img-fluid" alt="Logo" style="height: 300px;">
+    </a>
     <!-- Navbar Search Input-->
     <!-- * * Note: * * Visible only on and above the lg breakpoint-->
     <form class="form-inline me-auto d-none d-lg-block me-3">

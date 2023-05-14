@@ -8,7 +8,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.png') }}" />
-        <title>Inventory Management System</title>
+        <title>PS Admin</title>
 
         <!-- Style CSS -->
         <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet" />
