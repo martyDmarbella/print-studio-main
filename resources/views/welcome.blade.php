@@ -33,7 +33,7 @@
 
           
                 
-                <img src="http://localhost:3000/static/media/logo.436b118550ef63fa2f9419bce9d2e19a.svg" class="img-fluid" alt="welcome logo">
+                <img src="https://inevelle.sirv.com/assets/images/logo/Print-Studio/images/logo/logo/logo.svg" class="img-fluid" alt="welcome logo">
               
         </div>
     </body>

@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/favicon.png') }}" />
+        <link rel="icon" type="image/x-icon" href="https://inevelle.sirv.com/assets/images/logo/Print-Studio/images/logo/logo/icon.svg" />
         <title>PS Admin</title>
 
         <!-- Style CSS -->
