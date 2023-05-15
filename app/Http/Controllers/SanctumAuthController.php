@@ -6,18 +6,26 @@ use Illuminate\Http\Request;
 use App\Models\User;
 
 class SanctumAuthController extends Controller
+
 {
     public function register (Request $request)
     {
-        $this->validate($request, [
+        $rules = [
+           
             'name' => 'required|min:4',
+            'username' => 'required|min:4',
             'email' => 'required|email|unique:users',
             'password' => 'required|min:8',
-        ]);
+        ];
+        
+        $validatedData = $request->validate($rules);
+
+     
 
         $user = User::create([
             'name' => $request->name,
-            'email' => $request->email,
+            'username' => $request->username,
+            'email' => $request->email, 
             'password' => bcrypt($request->password)
         ]);
 
